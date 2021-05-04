@@ -29,5 +29,6 @@ jobs:
         with:
           flutter-version: '2.0.3'
       - run: flutter pub get
+      - run: flutter build web
       - name: Run a one-line script
         run: echo Hello, world!
