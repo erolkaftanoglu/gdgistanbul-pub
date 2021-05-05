@@ -22,7 +22,7 @@ class GDGAppBar extends StatelessWidget implements PreferredSizeWidget {
                     InkWell(
                       onTap: () {},
                       child: Text(
-                        'Discover',
+                        'Discover from firebase',
                         style: TextStyle(color: Colors.black),
                       ),
                     ),
